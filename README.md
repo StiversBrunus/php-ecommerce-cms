@@ -1,11 +1,11 @@
 # 🧃 PHP ECOMMERCE CMS 
 
-```
+
 ![PHP](https://img.shields.io/badge/PHP-Backend-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![jQuery](https://img.shields.io/badge/jQuery-JavaScript-blue)
 ![Status](https://img.shields.io/badge/status-educational-green)
-````
+
 
 Projeto de um **sistema web com CMS (Content Management System)** desenvolvido utilizando **PHP, MySQL e jQuery**.
 
