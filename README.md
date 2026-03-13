@@ -1,5 +1,11 @@
-```markdown
-# PHP CMS Product Catalog
+# 🧃 PHP ECOMMERCE CMS 
+
+```
+![PHP](https://img.shields.io/badge/PHP-Backend-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![jQuery](https://img.shields.io/badge/jQuery-JavaScript-blue)
+![Status](https://img.shields.io/badge/status-educational-green)
+````
 
 Projeto de um **sistema web com CMS (Content Management System)** desenvolvido utilizando **PHP, MySQL e jQuery**.
 
@@ -28,26 +34,26 @@ O sistema possui os seguintes módulos:
 - Controle de acesso por níveis
 
 ## 👥 Gerenciamento de Usuários
-- Cadastro de usuários
-- Edição
-- Exclusão
-- Ativar / Desativar usuários
-- Gerenciamento de níveis de acesso
+- Cadastro de usuários  
+- Edição  
+- Exclusão  
+- Ativar / Desativar usuários  
+- Gerenciamento de níveis de acesso  
 
 ## 📝 Gerenciamento de Conteúdo
 - CRUD de páginas do site
 - Ativação e desativação de conteúdos
 
 ## 📬 Fale Conosco
-- Listagem de mensagens enviadas pelo site
-- Visualização em modal
-- Exclusão de mensagens
-- Filtro por tipo de mensagem
+- Listagem de mensagens enviadas pelo site  
+- Visualização em modal  
+- Exclusão de mensagens  
+- Filtro por tipo de mensagem  
 
 ## 🛒 Catálogo de Produtos
-- Cadastro de produtos no CMS
-- Exibição dinâmica na página inicial
-- Upload de imagens
+- Cadastro de produtos no CMS  
+- Exibição dinâmica na página inicial  
+- Upload de imagens  
 - Visualização de informações como:
   - Nome
   - Descrição
@@ -69,80 +75,83 @@ O sistema possui os seguintes módulos:
 # 📂 Estrutura do Projeto
 
 ```
-
-/bd
-conexao.php
-autenticacao.php
-
-/css
-/js
-/jquery
-/imagem
-
-index.php
-empresa.php
-contato.php
-curiosidades.php
-lojas.php
-
+.
+├── bd
+│   ├── conexao.php
+│   └── autenticacao.php
+│
+├── css
+├── js
+├── jquery
+├── imagem
+│
+├── index.php
+├── empresa.php
+├── contato.php
+├── curiosidades.php
+└── lojas.php
 ```
-
 ---
 
 # ⚙️ Como executar o projeto
 
-1. Clone o repositório
+### 1️⃣ Clone o repositório
 
+```bash
+git clone https://github.com/StiversBrunus/php-ecommerce-cms
 ```
 
-git clone https://github.com/stiversbrunus/php-ecommerce-cms)
-
-```
-
-2. Coloque o projeto em um servidor local
+### 2️⃣ Coloque o projeto em um servidor local
 
 Exemplo:
 
-- XAMPP
-- WAMP
-- Laragon
+* XAMPP
+* WAMP
+* Laragon
 
-3. Crie o banco de dados MySQL
+### 3️⃣ Crie o banco de dados MySQL
 
-4. Importe o arquivo `.sql` do projeto
+Crie um banco no **phpMyAdmin** ou via terminal.
 
-5. Ajuste as configurações de conexão em:
+### 4️⃣ Importe o arquivo `.sql`
+
+Importe o script de banco de dados do projeto.
+
+### 5️⃣ Configure a conexão com o banco
+
+Arquivo:
 
 ```
-
 bd/conexao.php
-
 ```
 
-6. Acesse no navegador
+Ajuste:
 
-```
+* host
+* usuário
+* senha
+* nome do banco
 
-[http://localhost/projeto](http://localhost/projeto)
+### 6️⃣ Execute o projeto
 
-```
+Abra no navegador:
+
+http://localhost/php-ecommerce-cms
 
 ---
 
-# 📚 Conceitos praticados
+# 📚 Conceitos Praticados
 
-- CRUD com PHP
-- Conexão com banco de dados MySQL
-- Estrutura de CMS
-- Autenticação de usuários
-- Upload de arquivos
-- Integração front-end e back-end
+* CRUD com PHP
+* Conexão com banco de dados MySQL
+* Estrutura de CMS
+* Autenticação de usuários
+* Upload de arquivos
+* Integração entre front-end e back-end
+* Renderização dinâmica de conteúdo
 
 ---
 
 # 📄 Licença
 
-Projeto desenvolvido para fins **educacionais**.
-```
-
-
+Projeto desenvolvido para **fins educacionais** e prática de desenvolvimento web.
